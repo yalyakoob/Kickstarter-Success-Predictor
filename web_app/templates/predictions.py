@@ -16,7 +16,7 @@ from xgboost import XGBClassifier
 from app import app
 from joblib import load
 
-model = load('/Users/youssefalyakoob/Desktop/Kickstarter/web_app/xgb_model')
+model = load('web_app/assets/xgb_model')
 sub_category_list = [
     # 1 Art--Done
     [{'label': 'Ceramics', 'value': 17},
