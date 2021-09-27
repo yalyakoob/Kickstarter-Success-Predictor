@@ -10,6 +10,7 @@ from dash.dependencies import Input, Output
 
 # Imports from this application
 from app import app, server
+import web_app
 from web_app.templates import index, predictions
 
 # Navbar docs: https://dash-bootstrap-components.opensource.faculty.ai/l/components/navbar
